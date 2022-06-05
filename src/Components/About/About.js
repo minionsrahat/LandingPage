@@ -4,6 +4,7 @@ const About = () => {
     return (
         <>
             <section class=" relative px-4 py-16 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 lg:py-32">
+                <h5 className="text-5xl leading-tight font-bold mb-16 text-center">About Us</h5>
                 <div class="flex flex-col lg:flex-row lg:-mx-8">
                     <div class="w-full lg:w-1/2 lg:px-8">
                         <h2 class="text-3xl leading-tight font-bold mt-4">Welcome to the Dentist Office of Dr. Thomas Dooley</h2>

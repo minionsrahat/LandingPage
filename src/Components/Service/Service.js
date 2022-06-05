@@ -7,6 +7,8 @@ const Service = () => {
     return (
         <>
             <section className='relative px-16 py-16'>
+            <h5 className="text-5xl leading-tight font-bold mb-16 text-center">Our Services</h5>
+
                 <div class="md:flex md:flex-wrap mt-24 text-center md:-mx-4">
                     <div class="md:w-1/2 md:px-4 lg:w-1/4">
                         <div class="bg-white rounded-lg border border-gray-300 p-8">
