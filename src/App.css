@@ -65,3 +65,7 @@ span.arrow:hover .arrow_icon svg {
   background: rgb(49, 130, 206);
   background: linear-gradient(90deg, rgba(49, 130, 206, 1) 0%, rgba(56, 178, 172, 1) 100%);
 }
+
+.carousel img{
+  height: 600px;
+}
