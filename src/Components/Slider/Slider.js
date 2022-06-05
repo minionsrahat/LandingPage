@@ -12,14 +12,14 @@ const Slider = () => {
                     </div>
                 </div>
                 <div id="slide2" class="carousel-item relative w-full">
-                    <img src="https://api.lorem.space/image/car?w=800&h=200&hash=500B67FB" class="w-full" />
+                    <img src="https://tailwindcss-templates.netlify.app/dentalpro/images/cover-bg.jpeg" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide1" class="btn btn-circle">❮</a>
                         <a href="#slide3" class="btn btn-circle">❯</a>
                     </div>
                 </div>
                 <div id="slide3" class="carousel-item relative w-full">
-                    <img src="https://api.lorem.space/image/car?w=800&h=200&hash=A89D0DE6" class="w-full" />
+                    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.istockphoto.com%2Fphotos%2Fdoctor-portrait&psig=AOvVaw3zDyEuswf0OvigmhUqacEN&ust=1654519480433000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCKDH54qrlvgCFQAAAAAdAAAAABAY" class="w-full" />
                     <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                         <a href="#slide2" class="btn btn-circle">❮</a>
                         <a href="#slide4" class="btn btn-circle">❯</a>

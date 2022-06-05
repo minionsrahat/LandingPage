@@ -11,38 +11,35 @@ const Navbar = () => {
                         <div className="flex items-center justify-between h-16">
                             <div className="flex items-center">
                                 <div className="flex-shrink-0">
-                                    <img
-                                        className="h-8 w-8"
-                                        src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg"
-                                        alt="Workflow"
-                                    />
+                                    <h5 className='text-white text-bold'>#DoctorsPortal#</h5>
                                 </div>
                                 <div className="hidden md:block">
                                     <div className="ml-10 flex items-baseline space-x-4">
-                                        <a href="/"
-                                            className=" hover:bg-gray-700 text-white px-3 py-2 rounded-md text-sm font-medium">
-                                            Dashboard
+                                        <a
+                                            href="/"
+                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        >
+                                            Home
+                                        </a>
+                                        <a
+                                            href="/"
+                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        >
+                                            Our Services
                                         </a>
 
                                         <a
                                             href="/"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
-                                            Team
+                                            About Us
                                         </a>
 
                                         <a
                                             href="/"
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
-                                            Projects
-                                        </a>
-
-                                        <a
-                                            href="/"
-                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
-                                        >
-                                            Calendar
+                                            Appointment
                                         </a>
 
                                         <a
@@ -50,6 +47,12 @@ const Navbar = () => {
                                             className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
                                         >
                                             Reports
+                                        </a>
+                                        <a
+                                            href="/"
+                                            className="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium"
+                                        >
+                                            Contact Us
                                         </a>
                                     </div>
                                 </div>
@@ -114,35 +117,35 @@ const Navbar = () => {
                             <div className="md:hidden" id="mobile-menu">
                                 <div ref={ref} className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
                                     <a
-                                        href="#"
+                                        href="/"
                                         className="hover:bg-gray-700 text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
-                                        Dashboard
+                                        Home
                                     </a>
 
                                     <a
-                                        href="#"
+                                        href="/"
                                         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
-                                        Team
+                                        Our Services
                                     </a>
 
                                     <a
-                                        href="#"
+                                        href="/"
                                         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
-                                        Projects
+                                        About Us
                                     </a>
 
                                     <a
-                                        href="#"
+                                        href="/"
                                         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
-                                        Calendar
+                                        Appointment
                                     </a>
 
                                     <a
-                                        href="#"
+                                        href="/"
                                         className="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
                                     >
                                         Reports

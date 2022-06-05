@@ -6,24 +6,8 @@ const Footer = () => {
             <footer class="relative bg-gray-900 text-white px-4 sm:px-8 lg:px-16 xl:px-40 2xl:px-64 py-12 lg:py-24">
                 <div class="flex flex-col md:flex-row">
                     <div class="w-full lg:w-2/6 lg:mx-4 lg:pr-8">
-                        <h3 class="font-bold text-2xl">DentalPro</h3>
-                        <p class="text-gray-400">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
-
-                        <form class="flex items-center mt-6">
-                            <div class="w-full">
-                                <label class="block uppercase tracking-wide text-gray-600 text-xs font-bold mb-2" for="grid-last-name">
-                                    Subscribe for our Newsletter
-                                </label>
-                                <div class="relative">
-                                    <input
-                                        class="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-4 px-4 leading-tight focus:outline-none focus:bg-white focus:border-gray-500"
-                                        type="email" placeholder="Enter Your Email Address"/>
-
-                                        <button type="submit"
-                                            class="bg-teal-500 hover:bg-teal-400 text-white px-4 py-2 text-sm font-bold rounded absolute top-0 right-0 my-2 mr-2">Subscribe</button>
-                                </div>
-                            </div>
-                        </form>
+                        <h3 class="font-bold text-2xl">DoctorsPortal</h3>
+                        <p class="text-gray-400">There are only two sorts of doctors: those who practice with their brains, and those who practice with their tongues</p>
                     </div>
 
                     <div class="w-full lg:w-1/6 mt-8 lg:mt-0 lg:mx-4">
@@ -48,7 +32,7 @@ const Footer = () => {
                                         </svg>
                                     </span>
                                     <span class="ml-3">
-                                        1985 Kerry Way, Whittier, CA, USA
+                                        1985 , Mirpur 10, Dhaka, Bangladesh
                                     </span>
                                 </a>
                             </li>
@@ -137,7 +121,7 @@ const Footer = () => {
                                 </a>
                             </li>
                         </ul>
-                        <p class="text-sm text-gray-400 mt-12">© 2018 ProDentists. All Rights Reserved.
+                        <p class="text-sm text-gray-400 mt-12">© 2022 minionsRahat. All Rights Reserved.
                         </p>
                     </div>
                 </div>
