@@ -12,3 +12,9 @@ This is a single-page website for an Hospital. This website contains details inf
 - Tailwind css
 - React JS
 - DaisyUI  
+
+
+### How to run this Project
+* Download or clone the repository
+* install npm packages - `npm install`
+* run `npm start`
