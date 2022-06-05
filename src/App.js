@@ -1,13 +1,20 @@
 
 import './App.css';
+import About from './Components/About/About';
 import Navbar from './Components/Navbar/Navbar';
+import Service from './Components/Service/Service';
 import Slider from './Components/Slider/Slider';
 
 function App() {
   return (
     <>
-      <Navbar></Navbar>
+    <div className="bg-gray-100">
+    <Navbar></Navbar>
       <Slider></Slider>
+      <About></About>
+      <Service></Service>
+    </div>
+      
     </>
   );
 }
